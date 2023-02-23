@@ -38,5 +38,4 @@ The KSVD script is provided "as is" without any express or implied warranty. The
 The KSVD script is intended to be used for testing and demonstrating vulnerabilities in a controlled environment. It is not intended to be used for illegal or malicious purposes. The author does not encourage or condone the use of this script for any illegal activities.
 
 By using the KSVD script, you agree to indemnify the author from any damages or liabilities arising from your use of the script.
-```
-```
+
