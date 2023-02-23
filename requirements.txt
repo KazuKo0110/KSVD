@@ -1,0 +1,8 @@
+python-whois
+dnspython
+requests
+os
+sys
+dns.resolver
+sockets
+argparse

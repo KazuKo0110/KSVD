@@ -1,0 +1,4 @@
+Domain          Subdomain       Response Code   Subdomain Takeover
+==================================================================
+https://www.google.com www             200             False           
+https://mail.google.com mail            200             False           

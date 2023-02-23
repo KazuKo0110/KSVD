@@ -1,0 +1,10 @@
+Domain          MX Records      
+=============================================
+google.com      smtp.google.com.
+
+Domain          Name Server     
+=============================================
+google.com      ns2.google.com.
+google.com      ns3.google.com.
+google.com      ns4.google.com.
+google.com      ns1.google.com.

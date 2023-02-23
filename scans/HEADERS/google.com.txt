@@ -1,0 +1,12 @@
+Location: https://www.google.com/
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 23 Feb 2023 17:28:15 GMT
+Expires: Thu, 23 Feb 2023 17:28:15 GMT
+Cache-Control: private, max-age=2592000
+Server: gws
+Content-Length: 220
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: CONSENT=PENDING+072; expires=Sat, 22-Feb-2025 17:28:15 GMT; path=/; domain=.google.com; Secure
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

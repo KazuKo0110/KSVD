@@ -1,0 +1,4 @@
+Domain          Port            Service         
+=============================================
+google.com      80              http            
+google.com      443             https           
