@@ -39,3 +39,5 @@ The KSVD script is intended to be used for testing and demonstrating vulnerabili
 
 By using the KSVD script, you agree to indemnify the author from any damages or liabilities arising from your use of the script.
 
+---
+
